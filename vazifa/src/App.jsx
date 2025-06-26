@@ -3,6 +3,7 @@ import { books } from "./data.js";
 import Navbar from "./components/Navbar.jsx";
 import { BookItem } from "./components/BookItem.jsx";
 import { BookInfo } from "./components/BookInfo.jsx";
+import defaulImage from "./assets/jpg/default_image.png";
 
 function App() {
   const [_books, setBooks] = useState(books);
@@ -32,7 +33,7 @@ function App() {
             ) : (
               <li className="col-span-full text-center text-gray-400 py-8">
                 <img
-                  src={require("./assets/jpg/default_image.png")}
+                  src={defaulImage}
                   alt=""
                   className="w-96 ml-auto mr-auto"
                 />
