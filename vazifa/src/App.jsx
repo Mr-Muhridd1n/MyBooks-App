@@ -32,7 +32,7 @@ function App() {
             ) : (
               <li className="col-span-full text-center text-gray-400 py-8">
                 <img
-                  src="./assets/jpg/default_image.png"
+                  src={require("./assets/jpg/default_image.png")}
                   alt=""
                   className="w-96 ml-auto mr-auto"
                 />
