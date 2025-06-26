@@ -3,7 +3,7 @@ import { BookInfo } from "./BookInfo.jsx";
 export const BookItem = ({ book, onSelect }) => {
   return (
     <li
-      className="item bg-white shadow-lg rounded-xl p-4 transition-transform hover:scale-105 hover:shadow-2xl flex flex-col gap-3"
+      className="item bg-white shadow-lg rounded-xl p-4 transition-transform hover:scale-105 hover:shadow-2xl flex flex-col gap-3 cursor-pointer"
       onClick={() => onSelect(book)}
     >
       <div className="w-full h-60 overflow-hidden rounded-lg mb-3">
