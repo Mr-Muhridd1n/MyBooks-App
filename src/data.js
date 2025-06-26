@@ -1,22 +1,22 @@
 import orbitalImg from "./assets/jpg/orbital.png";
-import caledonianroadImg from "./assets/jpg/Caledonianroad.jpg";
-import threeDaysInJuneImg from "./assets/jpg/ThreeDaysinJune.jpg";
-import fundamentallyImg from "./assets/jpg/Fundamentally.jpg";
-import waterMoonImg from "./assets/jpg/WaterMoon.jpg";
-import weAreWatchingImg from "./assets/jpg/Wearewatching.jpg";
-import greatBigBeautifulLifeImg from "./assets/jpg/greatbigbeautifullife.jpg";
+import caledonianroadImg from "./assets/jpg/caledonianroad.jpg";
+import threedaysinjuneImg from "./assets/jpg/threedaysinjune.jpg";
+import fundamentallyImg from "./assets/jpg/fundamentally.jpg";
+import watermoonImg from "./assets/jpg/watermoon.jpg";
+import wearewatchingImg from "./assets/jpg/wearewatching.jpg";
+import greatbigbeautifullifeImg from "./assets/jpg/greatbigbeautifullife.jpg";
 import homeseekingImg from "./assets/jpg/homeseeking.jpg";
-import deathTakesMeImg from "./assets/jpg/deathtakesme.jpg";
-import oneDayEveryoneImg from "./assets/jpg/onedayeveryonewillhavealwaysbeenagainstthis.jpg";
+import deathtakesmeImg from "./assets/jpg/deathtakesme.jpg";
+import onedayeveryonewillhavealwaysbeenagainstthisImg from "./assets/jpg/onedayeveryonewillhavealwaysbeenagainstthis.jpg";
 import authorityImg from "./assets/jpg/authority.jpg";
-import theNextDayImg from "./assets/jpg/thenextday.jpg";
-import gingkoSeasonImg from "./assets/jpg/gingkoseason.jpg";
+import thenextdayImg from "./assets/jpg/thenextday.jpg";
+import gingkoseasonImg from "./assets/jpg/gingkoseason.jpg";
 import uncharmedImg from "./assets/jpg/uncharmed.jpg";
-import emperorOfGladnessImg from "./assets/jpg/theemperorofgladness.jpg";
-import disappointMeImg from "./assets/jpg/disappointme.jpg";
-import deepEndImg from "./assets/jpg/deepend.jpg";
-import aSeaOfUnspokenThingsImg from "./assets/jpg/ASeaofUnspokenThings.jpg";
-import sayYoullRememberMeImg from "./assets/jpg/sayyoullrememberme.jpg";
+import theemperorofgladnessImg from "./assets/jpg/theemperorofgladness.jpg";
+import disappointmeImg from "./assets/jpg/disappointme.jpg";
+import deependImg from "./assets/jpg/deepend.jpg";
+import aseaofunspokenthingsImg from "./assets/jpg/aseaofunspokenthings.jpg";
+import sayyoullremembermeImg from "./assets/jpg/sayyoullrememberme.jpg";
 import auditionImg from "./assets/jpg/audition.jpg";
 
 export const books = [
@@ -50,7 +50,7 @@ export const books = [
     author: "Anne Tyler",
     year: "2025",
     genre: "Literary fiction",
-    coverImage: threeDaysInJuneImg,
+    coverImage: threedaysinjuneImg,
     description:
       "Bir oilaning uch kunlik hayoti haqida hikoya. Qahramonlar o‘zaro munosabatlar, eski xotiralar va yangi umidlar bilan kurashadilar. Har bir kun oila a’zolari uchun yangi kashfiyot va o‘zgarishlarga boy bo‘ladi.",
     rating: 4.5,
@@ -74,7 +74,7 @@ export const books = [
     author: "Unknown Author",
     year: "2025",
     genre: "Fantasy novel",
-    coverImage: waterMoonImg,
+    coverImage: watermoonImg,
     description:
       "Sehrli dunyoda sarguzashtlar. Qahramon suv osti shohligida g‘aroyib mavjudotlar va sirli kuchlar bilan uchrashadi. Hikoya do‘stlik, jasorat va orzular sari intilish haqida.",
     rating: 4.0,
@@ -86,7 +86,7 @@ export const books = [
     author: "Alison Gaylin",
     year: "2025",
     genre: "Psychological thriller",
-    coverImage: weAreWatchingImg,
+    coverImage: wearewatchingImg,
     description:
       "Psixologik triller va sirli voqealar. Asarda bosh qahramon o‘zini doimiy kuzatuv ostida his qiladi va bu uning hayotini butunlay o‘zgartiradi. Kitobda ishonch va haqiqat o‘rtasidagi nozik chiziq ochib beriladi.",
     rating: 4.4,
@@ -98,7 +98,7 @@ export const books = [
     author: "Emily Henry",
     year: "2025",
     genre: "Contemporary romance",
-    coverImage: greatBigBeautifulLifeImg,
+    coverImage: greatbigbeautifullifeImg,
     description:
       "Zamonaviy sevgi va hayot haqida hikoya. Qahramonlar o‘z orzulari va sevgisi uchun kurashadilar, hayotning go‘zalliklarini kashf etadilar. Kitob iliq va samimiy tuyg‘ular bilan to‘la.",
     rating: 4.6,
@@ -122,7 +122,7 @@ export const books = [
     author: "Cristina Rivera Garza",
     year: "2025",
     genre: "Literary thriller",
-    coverImage: deathTakesMeImg,
+    coverImage: deathtakesmeImg,
     description:
       "Hayot va o‘lim o‘rtasidagi chegaralar haqida triller. Qahramon o‘zining eng qorong‘u qo‘rquvlari bilan yuzma-yuz keladi. Kitobda hayotning o‘zi ham sirli va kutilmagan bo‘lishi mumkinligi ko‘rsatiladi.",
     rating: 4.3,
@@ -134,7 +134,7 @@ export const books = [
     author: "Omar El Akkad",
     year: "2025",
     genre: "Nonfiction",
-    coverImage: oneDayEveryoneImg,
+    coverImage: onedayeveryonewillhavealwaysbeenagainstthisImg,
     description:
       "Jamiyat va insoniyat haqida publitsistik asar. Muallif zamonaviy dunyodagi ijtimoiy muammolar va inson huquqlari haqida o‘z fikrlarini bildiradi. Kitob o‘quvchini chuqur o‘y va tahlilga undaydi.",
     rating: 4.0,
@@ -158,7 +158,7 @@ export const books = [
     author: "Melinda French Gates",
     year: "2025",
     genre: "Memoir",
-    coverImage: theNextDayImg,
+    coverImage: thenextdayImg,
     description:
       "Melinda French Gates ning shaxsiy va professional hayoti haqida esdaliklar. U o'zining muvaffaqiyatlari, qiyinchiliklari va hayotidagi muhim lahzalar haqida ochiqchasiga hikoya qiladi. Kitob o'quvchini ilhomlantiruvchi va o'z hayotini qayta ko'rib chiqishga undovchi xususiyatga ega.",
     rating: 4.6,
@@ -170,7 +170,7 @@ export const books = [
     author: "Naomi Xu Elegant",
     year: "2025",
     genre: "Literary fiction",
-    coverImage: gingkoSeasonImg,
+    coverImage: gingkoseasonImg,
     description:
       "Gingko yaproqlari tushadigan mavsumda uchraydigan insonlar hikoyasi. Har bir qahramon o'zining ichki kurashlari va orzulari bilan yashaydi. Hikoya inson ruhiyatining murakkabligi va go'zalligi haqida.",
     rating: 4.4,
@@ -194,7 +194,7 @@ export const books = [
     author: "Ocean Vuong",
     year: "2025",
     genre: "Literary fiction",
-    coverImage: emperorOfGladnessImg,
+    coverImage: theemperorofgladnessImg,
     description:
       "Baxt va qayg'u o'rtasidagi nozik muvozanat haqida roman. Asarda bosh qahramon o'zining ichki dunyosi va atrofidagi haqiqatlar bilan yuzma-yuz keladi. Kitob o'quvchini o'z his-tuyg'ulari va hayotiy tanlovlari ustida qayta o'ylashga majbur qiladi.",
     rating: 4.5,
@@ -206,7 +206,7 @@ export const books = [
     author: "Nicola Dinan",
     year: "2025",
     genre: "Literary fiction",
-    coverImage: disappointMeImg,
+    coverImage: disappointmeImg,
     description:
       "Kutilmagan voqealar va hayotiy saboqlar haqida hikoya. Qahramon o'zining eng chuqur qo'rquvlari va umidlari bilan yuzma-yuz keladi. Har bir voqea uning shaxsiy o'sishi va o'zini anglashida muhim ahamiyatga ega.",
     rating: 4.2,
@@ -218,7 +218,7 @@ export const books = [
     author: "Ali Hazelwood",
     year: "2025",
     genre: "Sports romance",
-    coverImage: deepEndImg,
+    coverImage: deependImg,
     description:
       "Sport va sevgi o'rtasidagi tanlovlar haqida roman. Qahramon professional sportdagi muvaffaqiyatlari va shaxsiy hayotidagi muammolari o'rtasida tanlov qilishga majbur. Kitobda sevgi, sadoqat va o'z-o'zini kashf etish mavzulari yoritilgan.",
     rating: 4.4,
@@ -230,7 +230,7 @@ export const books = [
     author: "Adrienne Young",
     year: "2025",
     genre: "Magical realism",
-    coverImage: aSeaOfUnspokenThingsImg,
+    coverImage: aseaofunspokenthingsImg,
     description:
       "Suhbatlashmagan his-tuyg'ular va sehrli voqealar. Asarda bosh qahramon o'zining ichki olami va tashqi haqiqat o'rtasidagi nozik chiziqni kashf etadi. Kitob sehr va haqiqatning uyg'unligi haqida.",
     rating: 4.6,
@@ -242,7 +242,7 @@ export const books = [
     author: "Abby Jimenez",
     year: "2025",
     genre: "Romantic comedy",
-    coverImage: sayYoullRememberMeImg,
+    coverImage: sayyoullremembermeImg,
     description:
       "Romantik va kulgili vaziyatlar orqali sevgi hikoyasi. Qahramonlar o'zaro tushunmovchiliklar, kutilmagan uchrashuvlar va samimiy suhbatlar orqali bir-birlarini kashf etadilar. Kitob o'quvchini iliq va quvnoq his-tuyg'ular bilan to'ldiradi.",
     rating: 4.3,
