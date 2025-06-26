@@ -15,7 +15,7 @@ import uncharmedImg from "./assets/uncharmed.jpg";
 import emperorOfGladnessImg from "./assets/theemperorofgladness.jpg";
 import disappointMeImg from "./assets/disappointme.jpg";
 import deepEndImg from "./assets/deepend.jpg";
-import aSeaOfUnspokenThingsImg from "./assets/aseaofunspokenthings.jpg";
+import aSeaOfUnspokenThingsImg from "./assets/ASeaofUnspokenThings.jpg";
 import sayYoullRememberMeImg from "./assets/sayyoullrememberme.jpg";
 import auditionImg from "./assets/audition.jpg";
 
