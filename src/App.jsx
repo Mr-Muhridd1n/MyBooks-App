@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { books } from "./data.js";
-import Navbar from "./components/Navbar.jsx";
-import { BookItem } from "./components/BookItem.jsx";
-import { BookInfo } from "./components/BookInfo.jsx";
+import { Footer } from "./components/Footer";
+import Navbar from "./components/Navbar";
+import { BookItem } from "./components/BookItem";
+import { BookInfo } from "./components/BookInfo";
 import defaulImage from "./assets/jpg/default_image.png";
 
 function App() {
@@ -10,17 +11,21 @@ function App() {
   const [search, setSearch] = useState("");
   const [selectedBook, setSelectedBook] = useState(null);
 
-  const filteredBooks = _books.filter(
+  let filteredBooks = _books.filter(
     (book) =>
       book.title.toLowerCase().includes(search.toLowerCase()) ||
       book.author.toLowerCase().includes(search.toLowerCase())
   );
 
+  const onDelete = (book) =>
+    setBooks(_books.filter((_book) => _book.id !== book.id));
+
   return (
     <>
       <Navbar searchText={search} setSearch={setSearch} />
-      <main>
+      <main className="mb-5">
         <section className="books_container container mx-auto">
+          <h2 className="mb-3">Books count: {filteredBooks.length}</h2>
           <ul className="grid md:grid-cols-6 sm:grid-cols-4 grid-cols-2 gap-5">
             {filteredBooks.length ? (
               filteredBooks.map((book) => (
@@ -28,6 +33,7 @@ function App() {
                   key={book.id}
                   book={book}
                   onSelect={setSelectedBook}
+                  onDelete={onDelete}
                 />
               ))
             ) : (
@@ -52,6 +58,7 @@ function App() {
       {selectedBook && (
         <BookInfo book={selectedBook} onClose={() => setSelectedBook(null)} />
       )}
+      <Footer />
     </>
   );
 }
