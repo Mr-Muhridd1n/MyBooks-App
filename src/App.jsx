@@ -24,9 +24,11 @@ function App() {
     <>
       <Navbar searchText={search} setSearch={setSearch} />
       <main className="mb-5">
-        <section className="books_container container mx-auto">
-          <h2 className="mb-3">Books count: {filteredBooks.length}</h2>
-          <ul className="grid md:grid-cols-6 sm:grid-cols-4 grid-cols-2 gap-5">
+        <section className="books_container container mx-auto px-2">
+          <h2 className="mb-3 text-base sm:text-lg md:text-xl">
+            Books count: {filteredBooks.length}
+          </h2>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 sm:gap-5">
             {filteredBooks.length ? (
               filteredBooks.map((book) => (
                 <BookItem
@@ -41,9 +43,9 @@ function App() {
                 <img
                   src={defaulImage}
                   alt=""
-                  className="w-96 ml-auto mr-auto"
+                  className="w-60 sm:w-80 md:w-96 mx-auto"
                 />
-                <h2 className="text-white text-3xl font-bold mb-2">
+                <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-2">
                   Kitoblar topilmadi !
                 </h2>
                 <p>
